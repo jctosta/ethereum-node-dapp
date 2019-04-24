@@ -1,0 +1,33 @@
+{
+  "name": "ethereum-node-dapp",
+  "version": "0.1.0",
+  "description": "A simple blockchain dApp made with nodejs, solidity, truffle framework and web3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "truffle-test": "./node_modules/.bin/truffle test",
+    "truffle-build": "./node_modules/.bin/truffle build",
+    "truffle-migrate": "./node_modules/.bin/truffle migrate",
+    "ganache": "./node_modules/.bin/ganache-cli --db ./ganache_data --seed customSeed --host 0.0.0.0 --port 8545"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jctosta/ethereum-node-dapp.git"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "web3",
+    "truffle"
+  ],
+  "author": "Carlos Tosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jctosta/ethereum-node-dapp/issues"
+  },
+  "homepage": "https://github.com/jctosta/ethereum-node-dapp#readme",
+  "devDependencies": {
+    "ganache-cli": "^6.4.3",
+    "truffle": "^5.0.13"
+  }
+}
